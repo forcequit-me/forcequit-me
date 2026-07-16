@@ -1,0 +1,6 @@
+# Ignore everything, then allow back only what this repo publishes.
+*
+
+!.gitignore
+!README.md
+!banner.png
