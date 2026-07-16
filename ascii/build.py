@@ -12,7 +12,7 @@ correct for character shape (1 char = 1 source pixel).
 import sys
 from pathlib import Path
 
-MAX_COLS = 76    # 76 + GAP + 45-wide panel = 127, about the width GitHub shows
+MAX_COLS = 72    # 72 + GAP + 45-wide panel = 123; 76 rendered a touch too wide
 GAP = 6          # spaces between art and panel
 
 # Char cell width/height where the art was authored vs where it gets rendered.
