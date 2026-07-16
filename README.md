@@ -1,24 +1,98 @@
-Force Quit
+<div align="center">
 
-I'm Max. I build web, brand, video, audio, 3D, and the tools around them.
+<img src="banner.png" alt="Force Quit" width="100%" />
+
+# FORCE QUIT
+
+**Professional Side-Quester.** Code, sound, and visuals.
+
+[![YouTube](https://img.shields.io/badge/YouTube-Dev_&_Design-1A1A1A?style=for-the-badge&logo=youtube&logoColor=5CF2A0)](https://www.youtube.com/@ForceQuitCreations)
+[![Linktree](https://img.shields.io/badge/Everything_Else-1A1A1A?style=for-the-badge&logo=linktree&logoColor=5CF2A0)](https://linktr.ee/ForceQuit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=5CF2A0)](https://www.linkedin.com/in/max-rico)
+
+</div>
+
+---
+
+I build web, brand, video, audio, 3D, and the tools around them.
 
 Most of what's here is scaffolding for creative work that AI doesn't handle out of the box: Claude Code environments for Blender and Remotion, a skill for people who direct development without writing the code, and small tools that fix specific problems in my own pipeline.
 
-My background is music production. That's where I learned to ask whether a thing serves the work or clutters it, and it's the same question I bring to software.
+My background is music production. That's where I learned to ask whether a thing serves the work or clutters it. Same question, different medium.
 
-Start here
+---
 
+## Start here
 
-vibecoder-mode — a Claude skill that teaches you vocabulary instead of creating dependence
-whispermerger — offline, speaker-labeled transcripts with word-level timestamps, WhisperX on a local GPU
-Pro-Q4 Preset Merger — merge and edit FabFilter Pro-Q 4 presets in the browser (live)
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### [vibecoder-mode](https://github.com/forcequit-me/vibecoder-mode)
+A Claude skill for people who direct development without writing the code. Teaches you vocabulary instead of creating dependence.
 
-Elsewhere
+</td>
+<td width="50%" valign="top">
 
+### [whispermerger](https://github.com/forcequit-me/whispermerger)
+Offline speaker-labeled transcripts with word-level timestamps. WhisperX on a local GPU, FastAPI backend.
 
-YouTube (dev & design): @ForceQuitCreations
-Everything else: linktr.ee/ForceQuit
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
+### [Pro-Q4 Preset Merger](https://pro-q4-merger.pages.dev/)
+Merge, blend, and edit FabFilter Pro-Q 4 presets in the browser. **Live** — nothing to install.
 
-Portfolio site coming soon.
+</td>
+<td width="50%" valign="top">
+
+### [Redaction Master](https://github.com/forcequit-me/Redaction-Master-Figma-Plugin)
+Figma plugin that redacts sensitive content in design files.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Claude Code x Remotion](https://github.com/forcequit-me/Claude-Code-Remotion-Template)
+Programmatic video with Remotion, React, and TypeScript. 21 slash commands, 9 skills, 8 agents.
+
+</td>
+<td width="50%" valign="top">
+
+### [Claude Code x Blender](https://github.com/forcequit-me/blender-addon-template)
+Addon development with live in-Blender testing, API validation, and generated boilerplate.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Toolkit
+
+<div align="center">
+
+![Claude](https://img.shields.io/badge/Claude-1A1A1A?style=flat-square&logo=anthropic&logoColor=5CF2A0)
+![Python](https://img.shields.io/badge/Python-1A1A1A?style=flat-square&logo=python&logoColor=5CF2A0)
+![TypeScript](https://img.shields.io/badge/TypeScript-1A1A1A?style=flat-square&logo=typescript&logoColor=5CF2A0)
+![JavaScript](https://img.shields.io/badge/JavaScript-1A1A1A?style=flat-square&logo=javascript&logoColor=5CF2A0)
+![React](https://img.shields.io/badge/React-1A1A1A?style=flat-square&logo=react&logoColor=5CF2A0)
+
+![Figma](https://img.shields.io/badge/Figma-1A1A1A?style=flat-square&logo=figma&logoColor=3E4FE8)
+![Blender](https://img.shields.io/badge/Blender-1A1A1A?style=flat-square&logo=blender&logoColor=3E4FE8)
+![DaVinci Resolve](https://img.shields.io/badge/DaVinci_Resolve-1A1A1A?style=flat-square&logo=davinciresolve&logoColor=3E4FE8)
+![Ableton](https://img.shields.io/badge/Ableton_Live-1A1A1A?style=flat-square&logo=abletonlive&logoColor=3E4FE8)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-1A1A1A?style=flat-square&logo=cloudflare&logoColor=3E4FE8)
+
+</div>
+
+---
+
+<div align="center">
+
+*Portfolio site coming soon.*
+
+</div>
