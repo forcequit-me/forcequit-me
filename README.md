@@ -8,50 +8,19 @@
 
 [![YouTube](https://img.shields.io/badge/YouTube-Dev_&_Design-1A1A1A?style=for-the-badge&logo=youtube&logoColor=5CF2A0)](https://www.youtube.com/@ForceQuitCreations)
 [![Linktree](https://img.shields.io/badge/Everything_Else-1A1A1A?style=for-the-badge&logo=linktree&logoColor=5CF2A0)](https://linktr.ee/ForceQuit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=5CF2A0)](https://www.linkedin.com/in/max-rico)
 
 </div>
 
-<!-- ascii:start -->
-
-```
-                           ##################
-                  ####################################
-               #########################################                      forcequit@me
-             ##############################################                   -------------------------------------------
-         ################################    ##################               OS .......... Windows, macOS, Linux
-        ####################################    ################              Host ........ Force Quit Productions
-     ###############   ###  ######################    #############           Kernel ...... Creative Technologist
-    ################### ###    ######################  #############          Shell ....... Claude Code, Codex
-   ######################## ####    ######## ############ ###########         Location .... Portugal
-  ###########################  ###    ####   ############# ###########
- ############################### ####      ################  ##########       STACK --------------------------------------
-##########  #    #################### ####################### ##########      Code ........ Python, TypeScript, JavaScript
-########## #####   ################## ####################### ##########      Markup ...... HTML, CSS
-######### ##########     #########   ######################### #########      Design ...... Figma, Blender, Illustrator
-######### #############    #####   ######## #  ############### #########      Media ....... DaVinci Resolve, Ableton Live
-######### ###############   ###   ######## ####  ############# #########      Deploy ...... Cloudflare Pages, Raspberry Pi
-########## ##################  ######## ############# ####### ##########      Spoken ...... English, Portuguese (Beginner)
- #################################### ################   #### ##########
- ##########  ########################## #################### ##########       BUILDING -----------------------------------
-  ########### #########################    ################# #########        Skills ...... vibecoder-mode
-   ########### ##########################    ##############    ######         Templates ... Claude Code x Blender, Remotion
-    ############# ###########################    #######  #####               Plugins ..... Figma, Blender (10+)
-     #############  ############################    ### ##########            Hardware .... 6-SSD Pi NAS, desktops
-        ###############   ####################   ########  #####
-         ##################    ##########    ###############                  CONTACT ------------------------------------
-            ################################################                  YouTube ..... @ForceQuitCreations
-                #########################################                     Links ....... linktr.ee/ForceQuit
-                  ####################################
-                           ##################
-```
-
-<!-- ascii:end -->
+---
 
 I build web, brand, video, audio, 3D, and the tools around them.
 
 Most of what's here is scaffolding for creative work that AI doesn't handle out of the box: Claude Code environments for Blender and Remotion, a skill for people who direct development without writing the code, and small tools that fix specific problems in my own pipeline.
 
 My background is music production. That's where I learned to ask whether a thing serves the work or clutters it. Same question, different medium.
+
+---
 
 ## Start here
 
@@ -74,7 +43,7 @@ Offline speaker-labeled transcripts with word-level timestamps. WhisperX on a lo
 <td width="50%" valign="top">
 
 ### [Pro-Q4 Preset Merger](https://pro-q4-merger.pages.dev/)
-Merge, blend, and edit FabFilter Pro-Q 4 presets in the browser. Live, nothing to install.
+Merge, blend, and edit FabFilter Pro-Q 4 presets in the browser. **Live** — nothing to install.
 
 </td>
 <td width="50%" valign="top">
@@ -99,6 +68,26 @@ Addon development with live in-Blender testing, API validation, and generated bo
 </td>
 </tr>
 </table>
+
+---
+
+## Toolkit
+
+<div align="center">
+
+![Claude](https://img.shields.io/badge/Claude-1A1A1A?style=flat-square&logo=anthropic&logoColor=5CF2A0)
+![Python](https://img.shields.io/badge/Python-1A1A1A?style=flat-square&logo=python&logoColor=5CF2A0)
+![TypeScript](https://img.shields.io/badge/TypeScript-1A1A1A?style=flat-square&logo=typescript&logoColor=5CF2A0)
+![JavaScript](https://img.shields.io/badge/JavaScript-1A1A1A?style=flat-square&logo=javascript&logoColor=5CF2A0)
+![React](https://img.shields.io/badge/React-1A1A1A?style=flat-square&logo=react&logoColor=5CF2A0)
+
+![Figma](https://img.shields.io/badge/Figma-1A1A1A?style=flat-square&logo=figma&logoColor=3E4FE8)
+![Blender](https://img.shields.io/badge/Blender-1A1A1A?style=flat-square&logo=blender&logoColor=3E4FE8)
+![DaVinci Resolve](https://img.shields.io/badge/DaVinci_Resolve-1A1A1A?style=flat-square&logo=davinciresolve&logoColor=3E4FE8)
+![Ableton](https://img.shields.io/badge/Ableton_Live-1A1A1A?style=flat-square&logo=abletonlive&logoColor=3E4FE8)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-1A1A1A?style=flat-square&logo=cloudflare&logoColor=3E4FE8)
+
+</div>
 
 ---
 
