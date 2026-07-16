@@ -1,33 +1,89 @@
-######                           [38;5;85mmax[0m@[38;5;85mforcequit[0m  [38;5;245m----------------------------------[0m
-                  ###   ##########
-                       ###### ######                  [38;5;245m.[0m [38;5;69mOS:[0m [38;5;245m........................[0m macOS, Windows, Linux
-                   ####### ###### ###                 [38;5;245m.[0m [38;5;69mHost:[0m [38;5;245m......................[0m Force Quit Productions
-        #############    ##############               [38;5;245m.[0m [38;5;69mKernel:[0m [38;5;245m....................[0m Creative Technologist
-      ####################    ### ### ##              [38;5;245m.[0m [38;5;69mShell:[0m [38;5;245m.....................[0m Claude Code
-    ###### ###################   ## #####             [38;5;245m.[0m [38;5;69mLocation:[0m [38;5;245m..................[0m Portugal
-   ##  # ###########################   ###
-   ##### ########      ###############  ##            [38;5;245m- [0m[38;5;85mStack[0m [38;5;245m--------------------------------------[0m
-    #### ######                      #####            [38;5;245m.[0m [38;5;69mLanguages.Programming:[0m [38;5;245m.....[0m Python, TypeScript, JavaScript
-       #####               ###### #######             [38;5;245m.[0m [38;5;69mLanguages.Markup:[0m [38;5;245m..........[0m HTML, CSS
-                    ###############   #    #          [38;5;245m.[0m [38;5;69mLanguages.Real:[0m [38;5;245m............[0m English, Portuguese, German
-             ######### # ## #####     # ##            [38;5;245m.[0m [38;5;69mDesign:[0m [38;5;245m....................[0m Figma, Blender, Illustrator
-         #    #####  ####### ####     ##  #           [38;5;245m.[0m [38;5;69mMedia:[0m [38;5;245m.....................[0m DaVinci Resolve, Ableton Live
-               ###    ##########      ##              [38;5;245m.[0m [38;5;69mDeploy:[0m [38;5;245m....................[0m Cloudflare Pages, Raspberry Pi
-           #  ###      ######        ####
-                               ####  ###              [38;5;245m- [0m[38;5;85mBuilding[0m [38;5;245m-----------------------------------[0m
-                #   ####   #   #    ####              [38;5;245m.[0m [38;5;69mSkills:[0m [38;5;245m....................[0m vibecoder-mode
-                   ### ########     #####             [38;5;245m.[0m [38;5;69mTemplates:[0m [38;5;245m.................[0m Blender, Remotion
-                ##               ########             [38;5;245m.[0m [38;5;69mPlugins:[0m [38;5;245m...................[0m Figma, Blender (10+)
-                      ####   #  ############          [38;5;245m.[0m [38;5;69mHardware:[0m [38;5;245m..................[0m 6-SSD Pi NAS, desktops
-                            ###################
-                 ##   # ############# #### #####      [38;5;245m- [0m[38;5;85mContact[0m [38;5;245m------------------------------------[0m
-                    # ############   ###  ###  ##     [38;5;245m.[0m [38;5;69mEmail:[0m [38;5;245m.....................[0m max.rico@forcequitproductions.com
-                    ############## ######   ######    [38;5;245m.[0m [38;5;69mLinkedIn:[0m [38;5;245m..................[0m max-rico
-                                 ### #############    [38;5;245m.[0m [38;5;69mYouTube:[0m [38;5;245m...................[0m @ForceQuitCreations
-                                #############    #    [38;5;245m.[0m [38;5;69mLinks:[0m [38;5;245m.....................[0m linktr.ee/ForceQuit
-                       ############### #      #  #
-                  ####### # #######   #          #
-   #######      ####  ###  ###### #  #   #      ##
-#   ###########   ####### #####         #       #
-#######             #####   ##       # #       ##
-#       ### ####     #### ###       #  #      ####
+```
+                  .......
+                ..       ....                max@forcequit
+               .  :===-:.    .               -------------------------------------------
+             .  :*@@@@@@@%*+- ..             OS .......... macOS, Windows, Linux
+        ..... .=*###@@@@@@@@@*  .            Host ........ Force Quit Productions
+      ..     .=+**%@@@@@@@@@@@+. .           Kernel ...... Creative Technologist
+     .  .-=**%@#%@@@@@@@@@@@@@@%- .          Shell ....... Claude Code
+    . :*@@@@@@@@@@@@@@@@@@@@@@@@@= .         Location .... Portugal
+   . +@@@@@@@@@@@@@@@@@@@@@@@@@@@@: .
+  . =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#..        STACK --------------------------------------
+ . .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. .       Code ........ Python, TypeScript, JavaScript
+ ...%@@@@@@@@@@@%%%%@@@@@@@@%@@@@@@:..       Markup ...... HTML, CSS
+  . :#@@@@@@@%#*#****##%####**%@@@@: .       Design ...... Figma, Blender, Illustrator
+   .  :=#%@%-..:-:-+#@@@@@@@%%@@@@%#: .      Media ....... DaVinci Resolve, Ableton Live
+    ..   .-=+####%@@@@@@@@@@@%#@@##%= .      Deploy ...... Cloudflare Pages, Raspberry Pi
+      ...+==@@@@@@@@@@@@@@@@%#*%@%%%- .      Spoken ...... English, Portuguese, German
+       . ++-*%@@%-%@@@@@@@@@#**#@##%: .
+       ...#==#@@+-%@@@@@@@@%#*#@@%*+. .      BUILDING -----------------------------------
+        . -++@@%.+##%@@@@%#####@@@#- .       Skills ...... vibecoder-mode
+         . ...==.*@@%%%%%%%%%%%@@@*...       Templates ... Claude Code x Blender, Remotion
+          .  .--.+@@@@@@@%%%%%@@@@+..        Plugins ..... Figma, Blender (10+)
+            ..-+=*%%@@@@@@@@@@@@@@*. .       Hardware .... 6-SSD Pi NAS, desktops
+             .:*-:+#%@@%%@@@@@@@@@%%= ..
+             .:...-*@@%#@@@@@@@@@@@@%-.      CONTACT ------------------------------------
+            . :=-.:+#%@@@@@@@@@@@@@@@@#.     Email ....... max.rico@forcequitproductions.com
+            . .++++%%@@@@@@@@@@@@@@@@@@%     LinkedIn .... max-rico
+             ..-+**@@@@@@@@@@@@@@@@@@@@@     YouTube ..... @ForceQuitCreations
+              . :+%@@@@@@@@@@@@@@@@@@@@@     Links ....... linktr.ee/ForceQuit
+               . .-=-+#*+==%@@@@@@@@@@@@
+                .   ::::.:*@@@@@@@@@@%%@
+```
+
+I build web, brand, video, audio, 3D, and the tools around them.
+
+Most of what's here is scaffolding for creative work that AI doesn't handle out of the box: Claude Code environments for Blender and Remotion, a skill for people who direct development without writing the code, and small tools that fix specific problems in my own pipeline.
+
+My background is music production. That's where I learned to ask whether a thing serves the work or clutters it. Same question, different medium.
+
+## Start here
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [vibecoder-mode](https://github.com/forcequit-me/vibecoder-mode)
+A Claude skill for people who direct development without writing the code. Teaches you vocabulary instead of creating dependence.
+
+</td>
+<td width="50%" valign="top">
+
+### [whispermerger](https://github.com/forcequit-me/whispermerger)
+Offline speaker-labeled transcripts with word-level timestamps. WhisperX on a local GPU, FastAPI backend.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Pro-Q4 Preset Merger](https://pro-q4-merger.pages.dev/)
+Merge, blend, and edit FabFilter Pro-Q 4 presets in the browser. Live, nothing to install.
+
+</td>
+<td width="50%" valign="top">
+
+### [Redaction Master](https://github.com/forcequit-me/Redaction-Master-Figma-Plugin)
+Figma plugin that redacts sensitive content in design files.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Claude Code x Remotion](https://github.com/forcequit-me/Claude-Code-Remotion-Template)
+Programmatic video with Remotion, React, and TypeScript. 21 slash commands, 9 skills, 8 agents.
+
+</td>
+<td width="50%" valign="top">
+
+### [Claude Code x Blender](https://github.com/forcequit-me/blender-addon-template)
+Addon development with live in-Blender testing, API validation, and generated boilerplate.
+
+</td>
+</tr>
+</table>
+
+---
+
+*Portfolio site coming soon.*
