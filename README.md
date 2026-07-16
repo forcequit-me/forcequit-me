@@ -1,16 +1,24 @@
-## Hi there 👋
+Force Quit
 
-<!--
-**forcequit-me/forcequit-me** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Max. I build web, brand, video, audio, 3D, and the tools around them.
 
-Here are some ideas to get you started:
+Most of what's here is scaffolding for creative work that AI doesn't handle out of the box: Claude Code environments for Blender and Remotion, a skill for people who direct development without writing the code, and small tools that fix specific problems in my own pipeline.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My background is music production. That's where I learned to ask whether a thing serves the work or clutters it, and it's the same question I bring to software.
+
+Start here
+
+
+vibecoder-mode — a Claude skill that teaches you vocabulary instead of creating dependence
+whispermerger — offline, speaker-labeled transcripts with word-level timestamps, WhisperX on a local GPU
+Pro-Q4 Preset Merger — merge and edit FabFilter Pro-Q 4 presets in the browser (live)
+
+
+Elsewhere
+
+
+YouTube (dev & design): @ForceQuitCreations
+Everything else: linktr.ee/ForceQuit
+
+
+Portfolio site coming soon.
