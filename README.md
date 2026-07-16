@@ -1,5 +1,18 @@
+<div align="center">
+
+<img src="banner.png" alt="Force Quit" width="100%" />
+
+# FORCE QUIT
+
+**Professional Side-Quester.** Code, sound, and visuals.
+
+[![YouTube](https://img.shields.io/badge/YouTube-Dev_&_Design-1A1A1A?style=for-the-badge&logo=youtube&logoColor=5CF2A0)](https://www.youtube.com/@ForceQuitCreations)
+[![Linktree](https://img.shields.io/badge/Everything_Else-1A1A1A?style=for-the-badge&logo=linktree&logoColor=5CF2A0)](https://linktr.ee/ForceQuit)
+
+</div>
+
 ```
-                     ...       .......                  max@forcequit
+                     ...       .......                  forcequit@me
                   ..    .:::...       ..                -------------------------------------------
            .......  .:+#%@@@@@%%#*+=-:  ...             OS .......... macOS, Windows, Linux
        ....       .-+**#%%@@@@@@@@@@@@#:   .            Host ........ Force Quit Productions
@@ -22,8 +35,7 @@
                      .-+###%@@@%%#*%@@@@@@@@@@@@@@@@    Hardware .... 6-SSD Pi NAS, desktops
                    ..   ...-:--::-+@@@@@@@@@@@@@@@@@
                                                         CONTACT ------------------------------------
-                                                        Email ....... max.rico@forcequitproductions.com
-                                                        LinkedIn .... max-rico
+                                                        Email ....... forcequitproductions@gmail.com
                                                         YouTube ..... @ForceQuitCreations
                                                         Links ....... linktr.ee/ForceQuit
 ```
@@ -83,4 +95,8 @@ Addon development with live in-Blender testing, API validation, and generated bo
 
 ---
 
+<div align="center">
+
 *Portfolio site coming soon.*
+
+</div>
