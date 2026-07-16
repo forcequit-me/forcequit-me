@@ -3,14 +3,17 @@ ascii:start / ascii:end markers. Run: python ascii/build.py
 
 Paste new art into art.txt, edit fields in panel.txt, run this. Nothing else.
 
-Art is rescaled to ART_COLS wide. Row count is derived, not kept: terminal
-chars are ~2x taller than wide, so art pasted at 1 char per pixel renders
-twice as tall as the source. Pass --raw to skip rescaling and place art as-is.
+Art is placed as authored: dead rows trimmed, and shrunk only if wider than
+MAX_COLS. Its proportions are never changed.
+
+Pass --squash for art straight out of an image-to-ASCII converter that didn't
+correct for character shape (1 char = 1 pixel, so it comes out ~2x too tall).
+Art that already looks right in a terminal does NOT want --squash.
 """
 import sys
 from pathlib import Path
 
-ART_COLS = 76    # 76 + GAP + 45-wide panel = 127, about the width GitHub shows
+MAX_COLS = 76    # 76 + GAP + 45-wide panel = 127, about the width GitHub shows
 CHAR_AR = 0.5    # char width / height
 GAP = 6          # spaces between art and panel
 HERE = Path(__file__).parent
@@ -19,21 +22,24 @@ START, END = "<!-- ascii:start -->", "<!-- ascii:end -->"
 
 
 def trim(art):
-    """Drop leading/trailing rows that carry no shape - all blank, or all one
-    solid character. In negative-space art the sky is a solid band of #."""
-    art = list(art)
-    while art and len(set(art[0].strip() or " ")) <= 1: art.pop(0)
-    while art and len(set(art[-1].strip() or " ")) <= 1: art.pop()
-    return art
+    """Drop leading/trailing rows carrying no shape: uniform edge to edge, all
+    blank or all solid. Tested at full width - '   ####   ' is shape, not dead
+    space, so it stays."""
+    width = max((len(l) for l in art), default=0)
+    art = [l.ljust(width) for l in art]
+    while art and len(set(art[0])) <= 1: art.pop(0)
+    while art and len(set(art[-1])) <= 1: art.pop()
+    return [l.rstrip() for l in art]
 
 
-def rescale(art, cols=ART_COLS):
-    """Resample the char grid to `cols` wide, deriving rows from the source
-    proportions so the result isn't stretched vertically."""
+def rescale(art, cols, squash=False):
+    """Resample the char grid to `cols` wide. Rows scale by the same factor, so
+    the art keeps its proportions - unless squash=True, which halves them to
+    correct converter output that assumed square pixels."""
     src_rows = len(art)
     src_cols = max(len(l) for l in art)
     grid = [l.ljust(src_cols) for l in art]
-    rows = max(1, round(cols * CHAR_AR * src_rows / src_cols))
+    rows = max(1, round(cols * (CHAR_AR if squash else 1.0) * src_rows / src_cols))
     out = []
     for y in range(rows):
         y0, y1 = y * src_rows // rows, max(y * src_rows // rows + 1, (y + 1) * src_rows // rows)
@@ -66,9 +72,10 @@ def read_lines(path):
 
 
 def main():
-    art = read_lines(HERE / "art.txt")
-    if "--raw" not in sys.argv:
-        art = rescale(trim(art))
+    art = trim(read_lines(HERE / "art.txt"))
+    squash = "--squash" in sys.argv
+    if squash or max(len(l) for l in art) > MAX_COLS:
+        art = rescale(art, MAX_COLS, squash=squash)
     block = merge(art, read_lines(HERE / "panel.txt"))
     src = README.read_text(encoding="utf-8")
     if START not in src or END not in src:
@@ -93,15 +100,17 @@ def check():
     assert out[3] == "AAA   three", repr(out[3])  # short art line padded to width
     assert all(p in "\n".join(out) for p in panel)
 
-    # rescale: 40x40 source -> 20 cols means 10 rows (20 * 0.5 * 40/40)
     square = ["#" * 40] * 40
-    r = rescale(square, cols=20)
-    assert (len(r), len(r[0])) == (10, 20), (len(r), len(r[0]))
+    r = rescale(square, cols=20)                    # proportions kept: 40x40 -> 20x20
+    assert (len(r), len(r[0])) == (20, 20), (len(r), len(r[0]))
     assert all(set(l) == {"#"} for l in r), "solid block must stay solid"
-    assert rescale([" " * 40] * 40, cols=20) == [""] * 10, "blank must stay blank"
+    r = rescale(square, cols=20, squash=True)       # squash halves the rows
+    assert len(r) == 10, len(r)
+    assert rescale([" " * 40] * 40, cols=20) == [""] * 20, "blank must stay blank"
 
-    # trim: uniform bands top and bottom go, shape rows stay
+    # trim: uniform bands go, indented shape rows stay
     assert trim(["####", "    ", "#  #", "####"]) == ["#  #"]
+    assert trim(["  ##  ", "#    #", "  ##  "]) == ["  ##", "#    #", "  ##"]
     assert trim(["#  #"]) == ["#  #"]
     print("ok")
 
