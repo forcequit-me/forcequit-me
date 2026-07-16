@@ -1,9 +1,9 @@
 forcequit@me
 -------------------------------------------
-OS .......... macOS, Windows, Linux
+OS .......... Windows, macOS, Linux
 Host ........ Force Quit Productions
 Kernel ...... Creative Technologist
-Shell ....... Claude Code
+Shell ....... Claude Code, Codex
 Location .... Portugal
 
 STACK --------------------------------------
@@ -12,7 +12,7 @@ Markup ...... HTML, CSS
 Design ...... Figma, Blender, Illustrator
 Media ....... DaVinci Resolve, Ableton Live
 Deploy ...... Cloudflare Pages, Raspberry Pi
-Spoken ...... English, Portuguese, German
+Spoken ...... English, Portuguese (Beginner)
 
 BUILDING -----------------------------------
 Skills ...... vibecoder-mode
@@ -21,6 +21,5 @@ Plugins ..... Figma, Blender (10+)
 Hardware .... 6-SSD Pi NAS, desktops
 
 CONTACT ------------------------------------
-Email ....... forcequitproductions@gmail.com
 YouTube ..... @ForceQuitCreations
 Links ....... linktr.ee/ForceQuit
